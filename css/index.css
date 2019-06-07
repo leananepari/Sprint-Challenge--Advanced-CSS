@@ -209,6 +209,9 @@ nav .space-walkers {
   padding-bottom: 20px;
   background-color: #F6F6F6;
   border: 0.5px solid #F1F1F1;
+  position: fixed;
+  top: 0;
+  opacity: 0.9;
 }
 footer {
   color: #22283B;
@@ -221,8 +224,8 @@ footer {
   align-items: center;
 }
 .home .intro .header-image img {
-  border-radius: 5px;
-  padding-top: 1px;
+  border-radius: 8px;
+  padding-top: 113px;
   width: 100%;
 }
 .home .intro h2 {
