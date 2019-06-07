@@ -321,7 +321,7 @@ footer {
 .home .walk .walk-text .btn:hover {
   color: #23293B;
   background-color: white;
-  border: transparent;
+  border: 1px solid transparent;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
 }
 .home .walk .walk-img {
