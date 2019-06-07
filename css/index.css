@@ -224,9 +224,10 @@ footer {
   align-items: center;
 }
 .home .intro .header-image img {
-  border-radius: 8px;
-  padding-top: 113px;
+  border-radius: 10px;
+  margin-top: 113px;
   width: 100%;
+  height: auto;
 }
 .home .intro h2 {
   padding: 15px;
