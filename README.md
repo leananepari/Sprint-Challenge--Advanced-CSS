@@ -32,15 +32,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. What is the difference between an adaptive website and a fully responsive website?
+1. What is the difference between an adaptive website and a fully responsive website?<br>
+   Adaptive websites 'adapt' to a specific size/breakpoint with hard coded sizing units, which limits responsivness to only those specific sizes. <br>
+   Responsive websites combine fixed, fluid, and adaptive approaches. As the viwport expends/shrinks, the media queries are added to create fluidity on stretch/shrink of the viewport.
 
-2. Describe what it means to be mobile first vs desktop first.
+2. Describe what it means to be mobile first vs desktop first.<br>
+   Mobile first approach begins with the build suited for mobile size first and then build extends into larger sizes.<br>
+   Desktop first approach works the opposite way.
 
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?<br>
+   Setting font size to 62.5% is a usufull trick that makes conversion to rem easier. This way you can convert rem units by the power of 10 instead of 16. (1rem === 10px).
 
-4. How would you describe preprocessing to someone new to CSS?
+4. How would you describe preprocessing to someone new to CSS?<br>
+   Preprossesing makes writing CSS feel as writing in coding language because with preprossesing you can create variables, use nesting, and write function like blocks of code which all make managing CSS much easier.
 
-5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?<br>
+   Nesting, mixins, parametrick mixins, functions, variables... Nothing gives trouble, only ease while writing stylesheets.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
