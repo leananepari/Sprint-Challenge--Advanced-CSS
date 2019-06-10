@@ -1,1 +1,20 @@
 // Mixins Here
+.button(@padd-top, @padd-bottom) {
+  padding: @padd-top 15px @padd-bottom 15px;
+  font-size: 2rem;
+  border-radius: 8px;
+  background-color: @ebony-clay;
+  color: white;
+  outline: 0;
+  cursor: pointer;
+}
+
+.box-shadow() {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
+}
+
+.box-hover() {
+  color: @ebony-clay;
+  background-color: white;
+  border: 1px solid transparent;
+}
